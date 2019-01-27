@@ -4,7 +4,10 @@ library( fields)
 library(RgoogleMaps)
 setwd("~/Dropbox/Home/Projects/UrbanTypology")
 source("GEOID2GISJOIN.R")
-APIKey <- 'AIzaSyBW8JvAf9ux9gGsh8v09s9_z1rrahfexuw'
+APIKey <- 'Has been omitted for privacy'
+# See APIKey.R local source code.
+# reading in shape files does not need the key.
+
 setwd("~/Dropbox/Home/Projects/UrbanTypology")
 
 COblkgrp<- readOGR("cb_2016_08_bg_500k/cb_2016_08_bg_500k.shp")
