@@ -3,13 +3,13 @@ Contains source data files and processed R binary files for census and
 transprotation data for Colorado.
 The two primary data subsets are CO0.rda  and COMapInfo.rda
 
-The data frame  CODemographic0  ( in CO0.rda) has the census data and transportation variables merged into  the 3532  census block groups in Colorado.
-The matrix COCentroids has the longitude and latitude centroid of each census block in the same row order as  CODemographic0
+The  R data frame  CODemographic0  ( in CO0.rda) has the census data and transportation variables merged into  the 3532  census block groups in Colorado.
+The matrix COCentroids (in  COMapInfo.rda)  has the longitude and latitude centroid of each census block in the same row order as  CODemographic0
 
-CO0.rda is created from the raw data csv files by setupCO.R and COMapInfo.rda by
-COblkgrp.R
+CO0.rda is created from the raw data csv files by the R source code setupCO.R
+and COMapInfo.rda by COblkgrp.R
 
-Below are some limited listing of the data objects in each file and 
+Below are some  listings of the data objects in each file 
 
 load( "CO0.rda")
 > load( "CO0.rda")
